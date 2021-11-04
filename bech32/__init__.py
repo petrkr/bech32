@@ -20,7 +20,10 @@
 
 """Reference implementation for Bech32 and segwit addresses."""
 
-from typing import Iterable, List, Optional, Tuple, Union
+try:
+    from typing import Iterable, List, Optional, Tuple, Union
+except:
+    pass
 
 
 CHARSET = "qpzry9x8gf2tvdw0s3jn54khce6mua7l"
